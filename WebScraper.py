@@ -17,4 +17,5 @@ for link in target_links:
     link_url = link['href']
     i = i+1
     #print(f"Link:  {link_url}")
+    
 print(i)
