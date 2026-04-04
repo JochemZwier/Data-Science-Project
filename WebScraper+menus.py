@@ -9,7 +9,7 @@ response = requests.get(f"{base_domain}/")
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # 2. Find all event links
-target_links = soup.find_all('a')
+target_links = soup.find_all('a')[0:10]
 total_events = len(target_links)
 
 events_with_umenu = 0
@@ -21,10 +21,6 @@ print(f"Found {total_events} total events. Starting the check...\n")
 for link in target_links: 
     event_path = link.get('href')
     event_name = link.get_text(strip=True)
-    
-    # Skip empty or invalid links
-    if not event_path or event_path.startswith('javascript'):
-        continue
         
     # Ensure correct URL formatting
     if not event_path.startswith('/'):
@@ -55,7 +51,7 @@ for link in target_links:
         print(f"[ERROR] Could not process {event_name}: {e}")
         
     # Be polite to their server
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 print("\n--- SUMMARY ---")
 print(f"Events checked: {total_events}") # Fixed the extra parenthesis here from the previous code

@@ -1,0 +1,888 @@
+weever bedrijven 10 kilometer businessrun (teamuitslag)
+siebrand kidsrun 10 t/m 12 jaar
+siebrand kidsrun 4 t/m 9 jaar
+10 km business run
+5 km business run
+2,5 km kiwanis studenten run
+2,5 km meander senioren- en starters run
+1 km movare kids run jongens 11-12 jr
+1 km movare kids run meisjes 11-12 jr
+1 km movare kids run jongens 9-10 jr
+1 km movare kids run meisjes 9-10 jr
+1 km movare kids run jongens 8 jr
+1 km movare kids run meisjes 8 jr
+500 m movare kids run jongens 7 jr
+500 m movare kids run meisjes 7 jr
+500 m movare kids run jongens 6 jr
+500 m movare kids run meisjes 6 jr
+500 m movare kids run jongens 5 jr
+500 m movare kids run meisjes 5 jr
+500 m movare kids run jongens 4 jr
+500 m movare kids run meisjes 4 jr
+6,5 kilometer recreanten
+1 km kempen kidsrun 7-8 jaar
+1 km kempen kidsrun 9-10 jaar
+1 km kempen kidsrun 11-13 jaar
+1,6 kilometer framerunning
+12 kilometer
+30 kilometer
+36 kilometer
+50 kilometer
+60 kilometer
+80 kilometer
+100 kilometer
+jongens/meisjes u8
+jongens/meisjes u9
+jongens/meisjes u10
+jongens/meisjes u11
+jongens/meisjes u12
+jongens u14
+meisjes u14
+jongens u16
+meisjes u16
+mannen u18
+vrouwen u18
+mannen u20
+vrouwen u20
+korte cross mannen
+korte cross vrouwen
+masterscross mannen 35-50
+masterscross mannen 55+
+masterscross vrouwen 35-50
+masterscross vrouwen 55+
+intersport long cross men
+intersport long cross women
+project run scholierencross groep 3+4 (individueel)
+project run scholierencross groep 5+6 (individueel)
+project run scholierencross groep 7+8 (individueel)
+project run scholierencross groep 3+4 (teamuitslag)
+project run scholierencross groep 5+6 (teamuitslag)
+project run scholierencross groep 7+8 (teamuitslag)
+bentinck fonds g-cross
+sylvester estafettecross
+prinses maxima centrum cross 3,8 km
+intersport sylvestercross 4 km
+intersport sylvestercross 6,7 km
+intersport sylvestercross 9,5 km
+rabobank sylvester businessrun (individueel)
+rabobank sylvester businessrun (teamuitslag)
+2 km eilandverhuur kidsrun (8-12 jaar)
+1 km eilandverhuur kidsrun (t/m 7 jaar)
+nk cross country (individueel+verenigingsklassementen)
+korte cross mannen, 1875 meter
+korte cross vrouwen, 1875 meter
+mannen u20, 7500 meter
+vrouwen u20, 5625 meter
+mannen u18, 5625 meter
+vrouwen u18, 3750 meter
+mannen 35-39, 7500 meter
+mannen 40-44, 7500 meter
+mannen 45-49, 7500 meter
+mannen 50-54, 7500 meter
+mannen 55-59, 7500 meter
+mannen 60-64, 7500 meter
+mannen 65-69, 7500 meter
+mannen 70-74, 5625 meter
+mannen 75-79, 5625 meter
+mannen 80+, 5625 meter
+vrouwen 35-39, 7500 meter
+vrouwen 40-44, 7500 meter
+vrouwen 45-49, 7500 meter
+vrouwen 50-54, 7500 meter
+vrouwen 55-59, 7500 meter
+vrouwen 60-64, 7500 meter
+vrouwen 65+, 7500 meter
+tribe security businessrun 10 km (individueel)
+tribe security businessrun 5 km (individueel)
+tribe security businessrun 10 km (teamuitslag)
+tribe security businessrun 5 km (teamuitslag)
+jongens u16, 2800 meter
+meisjes u16, 2240 meter
+jongens u14, 1680 meter
+meisjes u14, 1680 meter
+jongens u12, 1120 meter
+meisjes u12, 1120 meter
+jongens u10, 1120 meter
+meisjes u10, 1120 meter
+jongens u9, 560 meter
+meisjes u9, 560 meter
+estafette pupillen u9-u10, 4x560 meter
+estafette pupillen u12, 4x560 meter
+estafette junioren u14, 4x560 meter
+estafette junioren u16, 4x560 meter
+estafette specials, 4x560 meter
+jongens specials, 1120 meter
+meisjes specials, 1120 meter
+regio 13 cross mannen senioren, 5625 meter
+regio 13 cross vrouwen senioren, 5625 meter
+recreantencross, 5625 meter
+jongens groep 8, 1120 meter
+meisjes groep 8, 1120 meter
+jongens groep 7, 1120 meter
+meisjes groep 7, 1120 meter
+jongens groep 6, 1120 meter
+meisjes groep 6, 1120 meter
+jongens groep 5, 1120 meter
+meisjes groep 5, 1120 meter
+jongens groep 4, 560 meter
+meisjes groep 4, 560 meter
+jongens groep 3, 560 meter
+meisjes groep 3, 560 meter
+jongens groep 2, 560 meter
+meisjes groep 2, 560 meter
+jongens groep 1, 560 meter
+meisjes groep 1, 560 meter
+jongens peuterloop, 250 meter
+meisjes peuterloop, 250 meter
+gro-up jeugdloop 1000 meter
+gro-up puppy run 400 meter
+framerunners 400 meter
+albert schweitzer bedrijvenloop 10 kilometer (teamuitslag)
+albert schweitzer bedrijvenloop 5 kilometer (teamuitslag)
+bruba sport 2,5 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+sans-online 6 km night run
+curess 1200 meter 10-12 jaar
+curess 800 meter 7-9 jaar
+curess 400 meter 4-6 jaar
+g-loop 400 meter
+koers oost business run halve marathon (teamuitslag)
+koers oost business run 10 km (teamuitslag)
+koers oost business run 6 km (teamuitslag)
+teamloop 10 kilometer
+teamloop 5 kilometer
+1.5 km kidsrun
+750 m kidsrun
+7.5 km wandeling
+moore drv business run halve marathon
+moore drv business run 10 kilometer
+moore drv business run 5 kilometer
+kinderhulp familieloop 1900 meter
+kinderhulp mini singelloop 800 meter
+albert heijn 10 kilometer walking
+albert heijn 5 kilometer walking
+40 van breda
+10,1 kilometer
+2 kilometer
+1 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+scholenloop 2 kilometer
+scholenloop 1 kilometer
+trailrun 16 kilometer
+light kustrun 11 kilometer
+light kustrun 11 kilometer wandelen
+1050 meter 7-9 jaar
+1050 meter 10-11 jaar
+2100 meter 12-15 jaar
+mtb-tocht
+wandelmarathon
+hero kidsrun 1400m
+hero kabouterloop 700m
+endeavour businessrun halve marathon (teamuitslag)
+endeavour businessrun 10 km (teamuitslag)
+endeavour businessrun 5 km (teamuitslag)
+2,5 kilometer
+1 kilometer (10-11 jaar)
+1 kilometer (7-9 jaar)
+500 meter (4-6 jaar)
+tuincentrum leurs wandeltocht 10 km
+10 em koopmans bouwgroep dubbele singelloop wedstrijdloop
+10 em koopmans bouwgroep dubbele singelloop recreatieloop
+5 em menzis singelloop wedstrijdloop
+5 em menzis singelloop recreatieloop
+5 em hnab framerunners
+850 meter pure energie kidsrun groep 1/2
+850 meter pure energie kidsrun groep 3/4
+850 meter pure energie kidsrun groep 5/6
+850 meter pure energie kidsrun groep 7/8
+850 meter hnab framerunners
+10 em forvis mazars bedrijvenloop (teamuitslag)
+5 em forvis mazars bedrijvenloop (teamuitslag)
+30 kilometer
+15 kilometer handbikers
+4,1 kilometer - electro world
+bedrijvenloop 15 kilometer (teamuitslag)
+bedrijvenloop 7,75 kilometer (teamuitslag)
+bedrijvenloop 4,1 kilometer (teamuitslag)
+2,5 km gro-up jeugdloop (9 t/m 13 jaar)
+1 km gro-up kinderloop (t/m 9 jaar)
+10 km moore drv team run
+5 km moore drv team run
+2,5 km teamcompetitie
+1 km teamcompetitie
+pandriks 8 mijl
+pandriks 4 mijl
+sns kidsrun 3 km
+univé framerun 1,5 km
+slooow business run 8 mijl (teamuitslag)
+slooow business run 4 mijl (teamuitslag)
+corpus kidsrun
+businessloop 21 van bunnig & partners (teamuitslag)
+businessloop 10 van zorg en zekerheid (teamuitslag)
+businessloop 5 van leiden marathon (teamuitslag)
+kemari companyrun halve marathon (teamuitslag)
+kemari companyrun 10 kilometer (teamuitslag)
+kemari companyrun 5 kilometer (teamuitslag)
+10 km mm business run
+5 km mm business run
+2,5 km studenten run
+2,5 km meandergroep senioren- en starters run
+1 km movare - kiwanis kids run jongens 11-12 jr
+1 km movare - kiwanis kids run meisjes 11-12 jr
+1 km movare - kiwanis kids run jongens 9-10 jr
+1 km movare - kiwanis kids run meisjes 9-10 jr
+1 km movare - kiwanis kids run jongens 8 jr
+1 km movare - kiwanis kids run meisjes 8 jr
+500 m movare - kiwanis kids run jongens 7 jr
+500 m movare - kiwanis kids run meisjes 7 jr
+500 m movare - kiwanis kids run jongens 6 jr
+500 m movare - kiwanis kids run meisjes 6 jr
+500 m movare - kiwanis kids run jongens 5 jr
+500 m movare - kiwanis kids run meisjes 5 jr
+500 m movare - kiwanis kids run jongens 4 jr
+500 m movare - kiwanis kids run meisjes 4 jr
+neptunus wandeltocht 10 kilometer
+neptunus wandeltocht 20 kilometer
+neptunus wandeltocht 30 kilometer
+neptunus wandelmarathon 42,2 kilometer
+venloop walk & wheels 7,5 kilometer
+6,5 kilometer recreanten
+1 km kempen kidsrun 7-8 jaar
+1 km kempen kidsrun 9-10 jaar
+1 km kempen kidsrun 11-13 jaar
+1,6 kilometer frame running
+11 kilometer
+20 kilometer
+28 kilometer
+36 kilometer
+41 kilometer
+50 kilometer
+60 kilometer
+80 kilometer
+jongens/meisjes u8
+jongens/meisjes u9
+jongens/meisjes u10
+jongens/meisjes u11
+jongens/meisjes u12
+jongens u14
+meisjes u14
+jongens u16
+meisjes u16
+mannen u18
+vrouwen u18
+mannen u20
+vrouwen u20
+korte cross mannen
+korte cross vrouwen
+masterscross mannen 35-50
+masterscross mannen 55+
+masterscross vrouwen 35-50
+masterscross vrouwen 55+
+intersport mannen prominenten
+intersport vrouwen prominenten
+project run scholierencross groep 3+4 (individueel)
+project run scholierencross groep 5+6 (individueel)
+project run scholierencross groep 7+8 (individueel)
+project run scholierencross groep 3+4 (teamuitslag)
+project run scholierencross groep 5+6 (teamuitslag)
+project run scholierencross groep 7+8 (teamuitslag)
+bentinck fonds g-cross
+sylvester estafettecross
+prinses maxima centrum cross 3,8 km
+project run prestatiecross 4 km
+project run prestatiecross 6,7 km
+project run prestatiecross 9,5 km
+rabobank sylvester businessrun (individueel)
+rabobank sylvester businessrun (teamuitslag)
+2 km eilandverhuur kidsrun (8-12 jaar)
+1 km eilandverhuur kidsrun (t/m 7 jaar)
+crossgala vrouwen, 8000 meter
+korte cross mannen, 1875 meter
+korte cross vrouwen, 1875 meter
+mannen u20, 6200 meter
+vrouwen u20, 4300 meter
+mannen u18, 4300 meter
+vrouwen u18, 3750 meter
+tribe security businessrun 10 km (individueel)
+tribe security businessrun 5 km (individueel)
+tribe security businessrun 10 km (teamuitslag)
+tribe security businessrun 5 km (teamuitslag)
+jongens groep 8, 1120 meter
+meisjes groep 8, 1120 meter
+jongens groep 7, 1120 meter
+meisjes groep 7, 1120 meter
+jongens groep 6, 1120 meter
+meisjes groep 6, 1120 meter
+jongens groep 5, 1120 meter
+meisjes groep 5, 1120 meter
+jongens groep 4, 560 meter
+meisjes groep 4, 560 meter
+jongens groep 3, 560 meter
+meisjes groep 3, 560 meter
+jongens groep 1+2, 560 meter
+meisjes groep 1+2, 560 meter
+jongens peuterloop, 250 meter
+meisjes peuterloop, 250 meter
+mannen 35-39, 7500 meter
+mannen 40-44, 7500 meter
+mannen 45-49, 7500 meter
+mannen 50-54, 7500 meter
+mannen 55-59, 7500 meter
+mannen 60-64, 7500 meter
+mannen 65+, 7500 meter
+vrouwen 35-39, 7500 meter
+vrouwen 40-44, 7500 meter
+vrouwen 45-49, 7500 meter
+vrouwen 50-54, 7500 meter
+vrouwen 55+, 7500 meter
+jongens u16, 2800 meter
+meisjes u16, 2240 meter
+jongens u14, 1680 meter
+meisjes u14, 1680 meter
+jongens u12, 1120 meter
+meisjes u12, 1120 meter
+jongens u10, 1120 meter
+meisjes u10, 1120 meter
+jongens u9, 560 meter
+meisjes u9, 560 meter
+estafette pupillen u9-u10, 4x560 meter
+estafette pupillen u12, 4x560 meter
+estafette junioren u14, 4x560 meter
+estafette junioren u16, 4x560 meter
+estafette special event, 4x560 meter
+jongens special event, 560 meter
+meisjes special event, 560 meter
+jongens special event, 1700 meter
+meisjes special event, 1700 meter
+regio 13 cross mannen, 5625 meter
+regio 13 cross vrouwen, 5625 meter
+recreantencross, 5625 meter
+voortgezet onderwijs cross onderbouw mannen, 1700 meter
+voortgezet onderwijs cross onderbouw vrouwen, 1700 meter
+voortgezet onderwijs cross bovenbouw mannen, 1700 meter
+voortgezet onderwijs cross bovenbouw vrouwen, 1700 meter
+gro-up jeugdloop 2000 meter
+gro-up puppy run 400 meter
+framerunners 400 meter
+albert schweitzer bedrijvenloop 10 kilometer (teamuitslag)
+albert schweitzer bedrijvenloop 5 kilometer (teamuitslag)
+bruba sport 2,5 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+sans-online 6 km night run
+curess 1200 meter 10-12 jaar
+curess 800 meter 7-9 jaar
+curess 400 meter 4-6 jaar
+g-loop 400 meter
+koers oost business run halve marathon (teamuitslag)
+koers oost business run 10 km (teamuitslag)
+koers oost business run 6 km (teamuitslag)
+teamloop 10 kilometer
+teamloop 5 kilometer
+1.5 km kidsrun
+7.5 km wandeling
+axs ict business run halve marathon (teamuitslag)
+axs ict business run 15 km (teamuitslag)
+axs ict business run 10 km (teamuitslag)
+axs ict business run 5 km (teamuitslag)
+10,1 kilometer
+2 kilometer
+1 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+scholenloop 2 kilometer
+scholenloop 1 kilometer
+light kustrun 11 kilometer
+light kustrun 11 kilometer wandelen
+1050 meter 7-9 jaar
+1050 meter 10-11 jaar
+2100 meter 12-15 jaar
+mtb-tocht
+wandelmarathon
+hero kidsrun 1400m
+hero kabouterloop 700m
+endeavour businessrun halve marathon (teamuitslag)
+endeavour businessrun 10 km (teamuitslag)
+endeavour businessrun 5 km (teamuitslag)
+2,5 kilometer
+1 kilometer (10-11 jaar)
+1 kilometer (7-9 jaar)
+500 meter (4-6 jaar)
+tuincentrum leurs wandeltocht 15 km
+tuincentrum leurs wandeltocht 10 km
+10 em koopmans bouwgroep dubbele singelloop wedstrijdloop
+10 em koopmans bouwgroep dubbele singelloop recreatieloop
+5 em menzis singelloop wedstrijdloop
+5 em menzis singelloop recreatieloop
+5 em menzis singelloop framerunners
+850 meter pure energie kidsrun groep 1/2
+850 meter pure energie kidsrun groep 3/4
+850 meter pure energie kidsrun groep 5/6
+850 meter pure energie kidsrun groep 7/8
+850 meter framerunners
+10 em forvis mazars bedrijvenloop (teamuitslag)
+5 em forvis mazars bedrijvenloop (teamuitslag)
+30 km wedstrijd
+30 km prestatie
+10 mijl
+framerun
+bedrijvenloop 5 kilometer (teamuitslag)
+10 kilometer handbikers
+bedrijvenloop halve marathon (teamuitslag)
+bedrijvenloop 10 kilometer (teamuitslag)
+bedrijvenloop 5 kilometer (teamuitslag)
+hero kidsrun 1 kilometer
+endeavour businessrun 10 kilometer (teamuitslag)
+endeavour businessrun 5 kilometer (teamuitslag)
+klassement col du sophia
+kidsrun 1200 meter meisjes 12 en 13 jaar
+kidsrun 1200 meter jongens 12 en 13 jaar
+kidsrun 1200 meter meisjes 10 en 11 jaar
+kidsrun 1200 meter jongens 10 en 11 jaar
+kidsrun 600 meter meisjes 8 en 9 jaar
+kidsrun 600 meter jongens 8 en 9 jaar
+kidsrun 600 meter meisjes 7 jaar
+kidsrun 600 meter jongens 7 jaar
+kidsrun 600 meter meisjes 6 jaar
+kidsrun 600 meter jongens 6 jaar
+kidsrun 600 meter meisjes 5 jaar
+kidsrun 600 meter jongens 5 jaar
+kidsrun 600 meter meisjes 4 jaar
+kidsrun 600 meter jongens 4 jaar
+bedrijvenloop 5 kilometer (teamuitslag)
+plaggemars businessrun 10 kilometer
+framerunning 2,5 kilometer
+plaggemars businessrun 5 kilometer
+stn 2,5 kilometer
+regiobank kidsrun 800 meter (11-12 jaar)
+regiobank kidsrun 800 meter (9-10 jaar)
+regiobank kidsrun 800 meter (7-8 jaar)
+regiobank kidsrun 800 meter (t/m 6 jaar)
+g-run 800 meter
+pandriks 8 mijl
+pandriks 4 mijl
+stad en esch 3,2 km
+slooow business run 8 mijl (teamuitslag)
+slooow business run 4 mijl (teamuitslag)
+2,5 km jeugdloop (9 t/m 13 jaar)
+1 km kinderloop (t/m 9 jaar)
+10 km ruitenburg team run
+5 km ruitenburg team run
+2,5 km teamcompetitie
+1 km teamcompetitie
+elektramat companyrun halve marathon (teamuitslag)
+elektramat companyrun 10 kilometer (teamuitslag)
+elektramat companyrun 5 kilometer (teamuitslag)
+10 km business run
+5 km business run
+2,5 km studenten run
+2,5 km senioren- en starters run
+1 km movare kids run jongens 11-12 jr
+1 km movare kids run meisjes 11-12 jr
+1 km movare kids run jongens 9-10 jr
+1 km movare kids run meisjes 9-10 jr
+1 km movare kids run jongens 8 jr
+1 km movare kids run meisjes 8 jr
+500 m movare kids run jongens 7 jr
+500 m movare kids run meisjes 7 jr
+500 m movare kids run jongens 6 jr
+500 m movare kids run meisjes 6 jr
+500 m movare kids run jongens 5 jr
+500 m movare kids run meisjes 5 jr
+500 m movare kids run jongens 4 jr
+500 m movare kids run meisjes 4 jr
+1 km scelta mushrooms g-loop
+1 km rabobank kids kids run 11-12 jr
+1 km rabobank kids kids run 9-10 jr
+1 km rabobank kids kids run 8 jr
+1 km rabobank kids kids run 7 jr
+500 m kidzbase kinderloop 6 jr
+500 m kidzbase bambinoloop 5 jr
+500 m kidzbase bambinoloop 4 jr
+koenen en co businessrun halve marathon (teamuitslag)
+koenen en co businessrun 10 kilometer (teamuitslag)
+koenen en co businessrun 5 kilometer (teamuitslag)
+neptunus wandeltocht 10 kilometer
+neptunus wandeltocht 20 kilometer
+neptunus wandeltocht 30 kilometer
+neptunus wandelmarathon 42,2 kilometer
+venloop walk & wheels 7,5 kilometer
+6,5 kilometer recreanten
+1 km kempen kidsrun 7-8 jaar
+1 km kempen kidsrun 9-10 jaar
+1 km kempen kidsrun 11-13 jaar
+centraal beheer acht van apeldoorn (8 km) (netto volgorde)
+centraal beheer kidsrun (1 km)
+centraal beheer kidsrun (500 m)
+jongens/meisjes u8
+jongens/meisjes u9
+jongens/meisjes u10
+jongens/meisjes u11
+jongens/meisjes u12
+jongens u14
+meisjes u14
+jongens u16
+meisjes u16
+jongens u18
+meisjes u18
+jongens u20
+meisjes u20
+korte cross mannen
+korte cross vrouwen
+masterscross mannen
+masterscross vrouwen
+a.s.r. vitality mannen prominenten
+a.s.r. vitality vrouwen prominenten
+bink sylvester scholierencross groep 3+4 (individueel)
+bink sylvester scholierencross groep 5+6 (individueel)
+bink sylvester scholierencross groep 7+8 (individueel)
+bink sylvester scholierencross groep 3+4 (teamuitslag)
+bink sylvester scholierencross groep 5+6 (teamuitslag)
+bink sylvester scholierencross groep 7+8 (teamuitslag)
+bentinck fonds g-cross
+bas van de goor foundation prestatieloop 4 km
+grote sylvester prestatiecross 4 km
+grote sylvester prestatiecross 6,5 km
+grote sylvester prestatiecross 9,0 km
+rabobank sylvester businessrun (individueel)
+rabobank sylvester businessrun (teamuitslag)
+crossgala vrouwen, 8000 meter
+korte cross mannen, 1875 meter
+korte cross vrouwen, 1875 meter
+mannen u20 (jongens a), 6200 meter
+vrouwen u20 (meisjes a), 4300 meter
+mannen u18 (jongens b), 4300 meter
+vrouwen u18 (meisjes b), 3750 meter
+tribe security businessrun 10 km (individueel)
+tribe security businessrun 5 km (individueel)
+tribe security businessrun 10 km (teamuitslag)
+tribe security businessrun 5 km (teamuitslag)
+jongens groep 8, 1120 meter
+meisjes groep 8, 1120 meter
+jongens groep 7, 1120 meter
+meisjes groep 7, 1120 meter
+jongens groep 6, 1120 meter
+meisjes groep 6, 1120 meter
+jongens groep 5, 1120 meter
+meisjes groep 5, 1120 meter
+jongens groep 4, 560 meter
+meisjes groep 4, 560 meter
+jongens groep 3, 560 meter
+meisjes groep 3, 560 meter
+jongens groep 1+2, 560 meter
+meisjes groep 1+2, 560 meter
+jongens peuterloop, 250 meter
+meisjes peuterloop, 250 meter
+mannen 35-44, 7500 meter
+mannen 45-54, 7500 meter
+mannen 55-64, 7500 meter
+mannen 65+, 7500 meter
+vrouwen 35-44, 7500 meter
+vrouwen 45-54, 7500 meter
+vrouwen 55+, 7500 meter
+jongens c (u16), 2800 meter
+meisjes c (u16), 2240 meter
+jongens d (u14), 1680 meter
+meisjes d (u14), 1680 meter
+jongens pupillen a (u12), 1120 meter
+meisjes pupillen a (u12), 1120 meter
+jongens pupillen b (u10), 1120 meter
+meisjes pupillen b (u10), 1120 meter
+jongens pupillen c (u9), 560 meter
+meisjes pupillen c (u9), 560 meter
+estafette pupillen bc (u9-u10), 4x560 meter
+estafette pupillen a (u12), 4x560 meter
+estafette junioren d (u14), 4x560 meter
+estafette junioren c (u16), 4x560 meter
+estafette special event, 4x560 meter
+jongens special event, 560 meter
+meisjes special event, 560 meter
+jongens special event, 1700 meter
+meisjes special event, 1700 meter
+regio 13 cross mannen, 5625 meter
+regio 13 cross vrouwen, 5625 meter
+recreantencross, 5625 meter
+voortgezet onderwijs cross mannen, 5625 meter
+voortgezet onderwijs cross vrouwen, 5625 meter
+albert heijn 2,5 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+sans-online 6 km night run
+curess 1200 meter 10-12 jaar
+curess 800 meter 7-9 jaar
+curess 400 meter 4-6 jaar
+g-loop 400 meter
+plus supermarkten bedrijvenloop halve marathon (teamuitslag)
+plus supermarkten bedrijvenloop 10 km (teamuitslag)
+plus supermarkten bedrijvenloop 6 km (teamuitslag)
+10,1 kilometer
+2 kilometer
+1 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+scholenloop 2 kilometer
+scholenloop 1 kilometer
+teamloop 10 kilometer
+teamloop 5 kilometer
+1.5 km kidsrun
+400 m moeder-kindloop
+7.5 km wandeling
+light kustrun 11 kilometer
+light kustrun 11 kilometer wandelen
+1050 meter 7-9 jaar
+1050 meter 10-11 jaar
+2100 meter 12-15 jaar
+mtb-tocht
+wandelmarathon
+2,5 kilometer
+1 kilometer (10-11 jaar)
+1 kilometer (7-9 jaar)
+500 meter (4-6 jaar)
+5 em menzis singelloop wedstrijdloop
+5 em menzis singelloop recreatieloop
+850 meter rabobank kidsrun groep 1/2
+850 meter rabobank kidsrun groep 3/4
+850 meter rabobank kidsrun groep 5/6
+850 meter rabobank kidsrun groep 7/8
+850 meter race runners
+5 em eshuis accountants bedrijvenloop (teamuitslag)
+30 km wedstrijd
+30 km prestatie
+8 kilometer - boulanger
+8 kilometer handbikers
+4,55 kilometer
+bedrijvenloop 10 kilometer (teamuitslag)
+bedrijvenloop 8 kilometer (teamuitslag)
+bedrijvenloop 4,5 kilometer (teamuitslag)
+plaggemars businessrun 10 kilometer
+plaggemars businessrun 5 kilometer
+stn 2,5 kilometer
+regiobank kidsrun 800 meter (11-12 jaar)
+regiobank kidsrun 800 meter (9-10 jaar)
+regiobank kidsrun 800 meter (7-8 jaar)
+regiobank kidsrun 800 meter (t/m 6 jaar)
+g-run 800 meter
+2,5 km jeugdloop (9 t/m 13 jaar)
+1 km kinderloop (t/m 9 jaar)
+10 km ruitenburg team run
+5 km ruitenburg team run
+2,5 km teamcompetitie
+1 km teamcompetitie
+corpus kidsrun
+businessloop 21 van bunnig & partners (teamuitslag)
+businessloop 10 van zorg en zekerheid (teamuitslag)
+businessloop 5 van apek (teamuitslag)
+companyrun halve marathon (teamuitslag)
+companyrun 10 kilometer (teamuitslag)
+companyrun 5 kilometer (teamuitslag)
+10 km business run
+5 km business run
+2,5 km studenten run
+1 km movare kids run jongens 11-12 jr
+1 km movare kids run meisjes 11-12 jr
+1 km movare kids run jongens 9-10 jr
+1 km movare kids run meisjes 9-10 jr
+1 km movare kids run jongens 8 jr
+1 km movare kids run meisjes 8 jr
+500 m movare kids run jongens 7 jr
+500 m movare kids run meisjes 7 jr
+500 m movare kids run jongens 6 jr
+500 m movare kids run meisjes 6 jr
+500 m movare kids run jongens 4-5 jr
+500 m movare kids run meisjes 4-5 jr
+1 km scelta mushrooms g-loop
+1 km rabobank kids kids run 11-12 jr
+1 km rabobank kids kids run 9-10 jr
+1 km rabobank kids kids run 8 jr
+1 km rabobank kids kids run 7 jr
+500 m kidzbase kinderloop 6 jr
+500 m kidzbase bambinoloop 5 jr
+500 m kidzbase bambinoloop 4 jr
+halve marathon businessrun (teamuitslag)
+10 kilometer businessrun (teamuitslag)
+5 kilometer businessrun (teamuitslag)
+neptunus wandeltocht 10 kilometer
+neptunus wandeltocht 20 kilometer
+neptunus wandeltocht 30 kilometer
+neptunus wandelmarathon 42,2 kilometer
+venloop walk & wheels 7,5 kilometer
+6,5 kilometer recreanten
+1 km kempen kidsrun 7-8 jaar
+1 km kempen kidsrun 9-10 jaar
+1 km kempen kidsrun 11-13 jaar
+centraal beheer acht van apeldoorn (8 km) (netto volgorde)
+centraal beheer kidsrun (1 km)
+centraal beheer kidsrun (500 m)
+jongens+meisjes pupillen d
+jongens+meisjes pupillen c
+jongens+meisjes pupillen b
+jongens pupillen a
+meisjes pupillen a
+jongens u14 (junioren d)
+meisjes u14 (junioren d)
+jongens u16 (junioren c)
+meisjes u16 (junioren c)
+jongens u18 (junioren b)
+meisjes u18 (junioren b)
+jongens u20 (junioren a)
+meisjes u20 (junioren a)
+doubdle korte cross mannen
+doubdle korte cross vrouwen
+pk masterscross mannen
+pk masterscross vrouwen
+a.s.r. vitality mannen prominenten
+a.s.r. vitality vrouwen prominenten
+bink sylvester scholierencross groep 3/4 (individueel)
+bink sylvester scholierencross groep 5/6 (individueel)
+bink sylvester scholierencross groep 7/8 (individueel)
+bink sylvester scholierencross groep 3/4 (teamuitslag)
+bink sylvester scholierencross groep 5/6 (teamuitslag)
+bink sylvester scholierencross groep 7/8 (teamuitslag)
+bentinck fonds g-cross
+prestatieloop 3,3 km
+bas van de goor foundation prestatieloop 4 km
+prestatieloop 6,1 km
+prestatieloop 9,0 km
+rabobank sylvester businessrun (individueel)
+rabobank sylvester businessrun (teamuitslag)
+nk cross (individueel+verenigingsklassementen)
+crossgala vrouwen, 8000 meter
+korte cross mannen, 2400 meter
+korte cross vrouwen, 2400 meter
+mannen u20 (jongens a), 6200 meter
+vrouwen u20 (meisjes a), 4300 meter
+mannen u18 (jongens b), 4300 meter
+vrouwen u18 (meisjes b), 3750 meter
+taxperience businessrun 10 km man/vrouw (individueel)
+taxperience businessrun 10 km vrouwen (individueel)
+taxperience businessrun 5 km man/vrouw (individueel)
+taxperience businessrun 5 km vrouwen (individueel)
+taxperience businessrun 10 km man/vrouw (teamuitslag)
+taxperience businessrun 10 km vrouwen (teamuitslag)
+taxperience businessrun 5 km man/vrouw (teamuitslag)
+taxperience businessrun 5 km vrouwen (teamuitslag)
+jongens groep 8, 1120 meter
+meisjes groep 8, 1120 meter
+jongens groep 7, 1120 meter
+meisjes groep 7, 1120 meter
+jongens groep 6, 1120 meter
+meisjes groep 6, 1120 meter
+jongens groep 5, 1120 meter
+meisjes groep 5, 1120 meter
+jongens groep 4, 560 meter
+meisjes groep 4, 560 meter
+jongens groep 3, 560 meter
+meisjes groep 3, 560 meter
+jongens groep 1+2, 560 meter
+meisjes groep 1+2, 560 meter
+jongens peuterloop, 250 meter
+meisjes peuterloop, 250 meter
+nk cross (individueel+verenigingsklassementen)
+mannen 35, 7500 meter
+mannen 40, 7500 meter
+mannen 45, 7500 meter
+mannen 50, 7500 meter
+mannen 55, 7500 meter
+mannen 60, 7500 meter
+mannen 65, 7500 meter
+mannen 70, 7500 meter
+vrouwen 35, 7500 meter
+vrouwen 40, 7500 meter
+vrouwen 45, 7500 meter
+vrouwen 50, 7500 meter
+vrouwen 55, 7500 meter
+vrouwen 60, 7500 meter
+vrouwen 65, 7500 meter
+vrouwen 70, 7500 meter
+jongens c (u16), 2800 meter
+meisjes c (u16), 2240 meter
+jongens d (u14), 1680 meter
+meisjes d (u14), 1680 meter
+jongens pupillen a (u12), 1120 meter
+meisjes pupillen a (u12), 1120 meter
+jongens pupillen b (u10), 1120 meter
+meisjes pupillen b (u10), 1120 meter
+jongens pupillen c (u9), 560 meter
+meisjes pupillen c (u9), 560 meter
+estafette pupillen bc (u9-u10), 4x560 meter
+estafette pupillen a (u12), 4x560 meter
+estafette junioren d (u14), 4x560 meter
+estafette junioren c (u16), 4x560 meter
+estafette special event, 4x560 meter
+lv thebe extra jongens special event, 560 meter
+lv thebe extra meisjes special event, 560 meter
+lv thebe extra jongens special event, 1700 meter
+lv thebe extra meisjes special event, 1700 meter
+iff recreanten / regio 13 cross, 5625 meter
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+4 zeemijlenloop (recreantenloop)
+4 zeemijlenloop (bedrijvenloop individueel)
+kidsrun (1.8 km)
+brandsma de jong bedrijvenloop (teamuitslag)
+sans-online 6 km night run
+curess 1350 meter 10-12 jaar
+curess 900 meter 7-9 jaar
+curess 450 meter 4-6 jaar
+g-loop 450 meter
+de jong & laan bedrijvenloop halve marathon (teamuitslag)
+de jong & laan bedrijvenloop 10 km (teamuitslag)
+de jong & laan bedrijvenloop 6 km (teamuitslag)
+1.5 km kidsrun
+7.5 km wandeling
+van iersel luchtman advocaten businessrun halve marathon
+van iersel luchtman advocaten businessrun 10 kilometer
+van iersel luchtman advocaten businessrun 5 kilometer
+albert heijn 5 kilometer walking
+40 van breda
+10,1 kilometer
+2 kilometer
+1 kilometer
+bedrijvenloop halve marathon
+bedrijvenloop 10 kilometer
+bedrijvenloop 5 kilometer
+light kustrun 11 kilometer
+light kustrun 11 kilometer wandelen
+1050 meter 7-9 jaar
+1050 meter 10-11 jaar
+2100 meter 12-14 jaar
+mtb-tocht
+wandelmarathon
+2,5 kilometer
+1 kilometer (10-11 jaar)
+1 kilometer (7-9 jaar)
+500 meter
+10 km business run
+5 km business run
+2,5 km studenten run
+1 km movare kids run jongens 11-12 jr
+1 km movare kids run meisjes 11-12 jr
+1 km movare kids run jongens 9-10 jr
+1 km movare kids run meisjes 9-10 jr
+1 km movare kids run jongens 8 jr
+1 km movare kids run meisjes 8 jr
+500 m movare kids run jongens 7 jr
+500 m movare kids run meisjes 7 jr
+500 m movare kids run jongens 6 jr
+500 m movare kids run meisjes 6 jr
+500 m movare kids run jongens 4-5 jr
+500 m movare kids run meisjes 4-5 jr
+5 em menzis singelloop wedstrijdloop
+5 em menzis singelloop recreatieloop
+850 meter rabobank kidsrun groep 1/2
+850 meter rabobank kidsrun groep 3/4
+850 meter rabobank kidsrun groep 5/6
+850 meter rabobank kidsrun groep 7/8
+850 meter race runners
+5 em djopzz bedrijvenloop (teamuitslag)
+30 km wedstrijd
+30 km prestatie
