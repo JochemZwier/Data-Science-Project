@@ -1,0 +1,5 @@
+# Ignore the scraped results folder
+result_folder/
+
+# Standard Python system files to ignore
+__pycache__/

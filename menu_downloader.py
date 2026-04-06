@@ -1,4 +1,4 @@
-import requests, time
+import requests, time, csv
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pandas as pd
@@ -10,9 +10,9 @@ if os.path.exists(result_folder):
     shutil.rmtree(result_folder)
 os.makedirs(result_folder, exist_ok=True)
 
-
+session = requests.Session()
 base_url = "https://evenementen.uitslagen.nl/"
-soup = BeautifulSoup(requests.get(base_url).text, 'html.parser')
+soup = BeautifulSoup(session.get(base_url).text, 'lxml')
 i = 0
 # 5K variations
 inclusion_words_5k = [
@@ -42,41 +42,54 @@ inclusion_words_42k = [
     '42 van ', 'de 42 van'
 ]
 overall_inclusion = (inclusion_words_5k + inclusion_words_10k + inclusion_words_21k + inclusion_words_42k)
-exclusion_words = [
-    # So 2.5km does not get included since it contains '5km' etc. (and no i cant check for '0.5' or '0,5' since a full marathon is 42.195
-    '0.5', '0,5',
-    '1.5', '1,5',
-    '2.5', '2,5',
-    '3.5', '3,5',
-    '4.5', '4,5',
-    '6.5', '6,5',
-    '7.5', '7,5',
-    '8.5', '8,5',
-    '9.5', '9,5',
-    '10.5', '10,5',
-    '12.5', '12,5',
-    '17.5', '17,5',
 
-    # Walking
+exclusion_words = [
+    # 1. The 15/25/35 etc
+    '15 km', '15km', '15 kilometer', '15.0', '15,0', '15000', '15.000', '15 van',
+    '25 km', '25km', '25 kilometer', '25.0', '25,0', '25000', '25.000', '25 van',
+    '35 km', '35km', '35 kilometer', '35.0', '35,0', '35000', '35.000', '35 van',
+    '45 km', '45km', '45 kilometer', '45.0', '45,0', '45000', '45.000', '45 van',
+    '55 km', '55km', '55 kilometer', '55.0', '55,0', '55000', '55.000', '55 van',
+
+    # 2. Decimals & Fractions
+    '0.5', '0,5', '1.5', '1,5', '2.5', '2,5', '3.5', '3,5', '4.5', '4,5',
+    '6.5', '6,5', '7.5', '7,5', '8.5', '8,5', '9.5', '9,5', '10.5', '10,5',
+    '11.5', '11,5', '12.5', '12,5', '13.5', '13,5', '14.5', '14,5',
+    '15.5', '15,5', '16.5', '16,5', '17.5', '17,5', '18.5', '18,5', '19.5', '19,5',
+    '.75', ',75', '.25', ',25', 
+
+    # 3. Miles / Engelse Mijl
+    '5 em', '10 em', '4 em', '2 em', '15 em', '16.1 km', '16,1 km',
+    ' engelse mijl', ' mijl', ' miles',
+
+    # 4. Ultra & Fractional Marathons
+    'mini-marathon','mini marathon','mini', 'bruto', 'kwart', 'ultra', '50 km', '60 km', '100 km', '120 km',
+
+    # 5. Off-road / Alternatives
+    'cross', 'trail', 'strandrace', 'beach', 'boscross',
+
+    # 6. Walking
     'wandel', 'wandelen', 'walk', 'nordic',
     
-    # Corporate & Team events 
+    # 7. Corporate & Team events 
     'bedrijf', 'bedrijven', 'business', 'team', 'estafette', 'relay', 'duo', 'koppel',
     
-    # Youth & Kids races 
+    # 8. Youth & Kids races 
     'jeugd', 'kids', 'scholieren', 'school', 'kinder', 'pupillen', 'bambino', 'peuter',
     
-    # Other sports/categories mixed into running events
-    'handbike', 'rolstoel', 'wheelchair', 'skate', 'inline', 'fiets','framerunner','wheeler'
+    # 9. Other sports/categories
+    'handbike', 'rolstoel', 'wheel', 'skate', 'inline', 'fiets', 'frame', 'wheeler',
     
-    # Dog runs
-    'canicross', 'hond'
+    # 10. Dog runs
+    'canicross', 'hond','bigg'
 ]
 
+# Keep track of all the accepted and rejected categories 
 rejected_categories = []
+accepted_categories = []
 
 # Loops through all events 
-for link in soup.find_all('a')[0:100]:
+for link in soup.find_all('a'):
     path = link.get('href')
 
     # Get the date
@@ -93,7 +106,7 @@ for link in soup.find_all('a')[0:100]:
 
     try:
         # Go to the specific event and download the page
-        event_soup = BeautifulSoup(requests.get(event_url).text, 'html.parser')
+        event_soup = BeautifulSoup(session.get(event_url).text, 'lxml')
         umenu = event_soup.find('frame', attrs={'name': 'umenu'})
 
         if umenu:
@@ -101,9 +114,9 @@ for link in soup.find_all('a')[0:100]:
             menu_url = urljoin(event_url, umenu.get('src'))
 
             # Go to the events menu and download it.
-            menu_soup = BeautifulSoup(requests.get(menu_url).text, 'html.parser')
+            menu_soup = BeautifulSoup(session.get(menu_url).text, 'lxml')
 
-            # Print all valid options (and always skip the first one, since it says "Selecteer afstand" or some variation of that)
+            # Loop trough all menu options (and always skip the first one, since it says "Selecteer afstand" or some variation of that)
             for opt in menu_soup.find_all('option')[1:]:
                 val = opt.get('value')
                 category = opt.get_text(strip=True).lower()
@@ -111,7 +124,11 @@ for link in soup.find_all('a')[0:100]:
                 exclusion = any(word in category for word in exclusion_words)
                 decision = inclusion and not exclusion
 
+                # Check if we should(n't) accept a category based on white- and blacklisted words
                 if decision:
+                    accepted_categories.append(category)
+                    
+                    # Check what kind of event length it was accepted as
                     if any(word in category for word in inclusion_words_5k):
                         distance_class = "5K"
                     elif any(word in category for word in inclusion_words_10k):
@@ -121,8 +138,9 @@ for link in soup.find_all('a')[0:100]:
                     elif any(word in category for word in inclusion_words_42k):
                         distance_class = "42K"
 
-                    file_name = f"{event_date}_{distance_class}_{path[6:-1]}.txt"
-                    file_path = os.path.join(result_folder, file_name) # Create the full path here
+                    # Create the filename and print it
+                    file_name = f"{event_date}_{distance_class}_{path[6:-1]}.csv"
+                    file_path = os.path.join(result_folder, file_name) 
                     print(file_name)
 
                     base_category_url = urljoin(event_url,val)
@@ -133,8 +151,8 @@ for link in soup.find_all('a')[0:100]:
                     current_distance_rows = []
 
                     while True:
-                        resp = requests.get(f"{base_category_url}&p={page_num}")
-                        page_soup = BeautifulSoup(resp.text, 'html.parser')
+                        resp = session.get(f"{base_category_url}&p={page_num}")
+                        page_soup = BeautifulSoup(resp.text, 'lxml')
                         all_tables = page_soup.find_all('table')
                         results_table = None
                         
@@ -142,8 +160,9 @@ for link in soup.find_all('a')[0:100]:
                             table_text = table.get_text(strip=True).lower()
 
                             # Check if the table is a results table by checking if it mentions 'naam' somewhere
-                            if 'naam' in table_text:
+                            if 'naam' in table_text and not table.find('table'):
                                 results_table = table
+                                break
 
                         if page_num == 1 and not os.path.exists(file_path):
                             page_table_rows = results_table.find_all('tr')
@@ -158,26 +177,35 @@ for link in soup.find_all('a')[0:100]:
                             break
                         
                         page_num = page_num + 1  
-                    
-                    with open(os.path.join(result_folder, file_name), "a", encoding="utf-8") as file:
-                        for row in current_distance_rows:
-                            #.get_text(separator="\t", strip=True)
-                            file.write(f"{row}\n")
-                    
 
+                    with open(file_path, "a", encoding="utf-8-sig", newline="") as file:
+                        writer = csv.writer(file)
+                        
+                        for row in current_distance_rows:
+                            # 1. Grab all the cells in this specific row (both headers and data)
+                            cells = row.find_all(['th', 'td'])
+                            
+                            # 2. Extract just the clean text from each cell into a list
+                            clean_row_data = [cell.get_text(strip=True) for cell in cells]
+                            
+                            # 3. Write that list to the file as a perfect CSV row!
+                            writer.writerow(clean_row_data)
+                      
                 else:
                     rejected_categories.append(category)
-
+                    
     except:
         print('something went wrong.')
         pass
 
     #time.sleep(0.5) # Prevent overloading the server
-
+with open("accepted_categories.txt", "w", encoding="utf-8") as file:
+    for category in accepted_categories:
+        file.write(f"{category}\n")
 
 with open("rejected_categories.txt", "w", encoding="utf-8") as file:
     for category in rejected_categories:
         file.write(f"{category}\n")
 
+print(f"\nSaved {len(accepted_categories)} accepted categories to 'accepted_categories.txt'")
 print(f"\nSaved {len(rejected_categories)} rejected categories to 'rejected_categories.txt'")
-print(i)    
