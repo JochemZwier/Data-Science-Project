@@ -1,5 +1,6 @@
 # Ignore the scraped results folder
 result_folder/
+results_compressed.zip
 
 # Standard Python system files to ignore
 __pycache__/
