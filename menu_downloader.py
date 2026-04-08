@@ -126,7 +126,7 @@ for link in soup.find_all('a'):
 
                 # Check if we should(n't) accept a category based on white- and blacklisted words
                 if decision:
-                    accepted_categories.append(category)
+                    
                     
                     # Check what kind of event length it was accepted as
                     if any(word in category for word in inclusion_words_5k):
@@ -138,6 +138,8 @@ for link in soup.find_all('a'):
                     elif any(word in category for word in inclusion_words_42k):
                         distance_class = "42K"
 
+                    accepted_categories.append(f"{category} as {distance_class}")
+                    
                     # Create the filename and print it
                     file_name = f"{event_date}_{distance_class}_{path[6:-1]}.csv"
                     file_path = os.path.join(result_folder, file_name) 
@@ -159,8 +161,9 @@ for link in soup.find_all('a'):
                         for table in all_tables:
                             table_text = table.get_text(strip=True).lower()
 
-                            # Check if the table is a results table by checking if it mentions 'naam' somewhere
-                            if 'naam' in table_text and not table.find('table'):
+                            time_words = ['tijd', 'time', 'netto', 'bruto', 'finish','resultaat']
+                            # Check if the table is a results table by checking if it mentions 'naam' and something like a time somewhere
+                            if 'naam' in table_text and any(word in table_text for word in time_words) and not table.find('table'):
                                 results_table = table
                                 break
 
@@ -193,7 +196,7 @@ for link in soup.find_all('a'):
                       
                 else:
                     rejected_categories.append(category)
-                    
+                
     except:
         print('something went wrong.')
         pass
