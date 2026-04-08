@@ -127,7 +127,6 @@ for link in soup.find_all('a'):
                 # Check if we should(n't) accept a category based on white- and blacklisted words
                 if decision:
                     
-                    
                     # Check what kind of event length it was accepted as
                     if any(word in category for word in inclusion_words_5k):
                         distance_class = "5K"
