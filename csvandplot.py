@@ -1,4 +1,5 @@
 #%%
+# %matplotlib ipympl 
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
@@ -437,4 +438,119 @@ print(slow_5k[['EVENT', 'YEAR']].value_counts().head(50))
 # %%
 
 master_df.head(10)
+
+
+# %%
+
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import numpy as np
+import pandas as pd
+
+# Filter out physically impossible times (using generous world-record buffers)
+valid_times = (
+    ((master_df['DISTANCE'] == '5') & (master_df['TIME_MINS'] >= 12)) |
+    ((master_df['DISTANCE'] == '10') & (master_df['TIME_MINS'] >= 26)) |
+    ((master_df['DISTANCE'] == '21') & (master_df['TIME_MINS'] >= 57)) |
+    ((master_df['DISTANCE'] == '42') & (master_df['TIME_MINS'] >= 115)) 
+)
+master_df = master_df[valid_times]
+
+print("--- Summary Statistics by Distance ---")
+summary_df = master_df.groupby('DISTANCE')['TIME_MINS'].agg(
+    ['count', 'min', 'median', 'mean', 'std', 'max']
+).round(1)
+summary_df.sort_values('count', ascending=False, inplace=True)
+display(summary_df)
+
+# --- 1. Create a proper Date Column ---
+master_df['DATE'] = pd.to_datetime(master_df['YEAR'].astype(str) + '-' + 
+                                   master_df['MONTH'].astype(str) + '-' + 
+                                   master_df['DAY'].astype(str), errors='coerce')
+
+distances_to_plot = ['21', '42']
+
+# --- 2. Setup the Subplots ---
+fig, axes = plt.subplots(nrows=len(distances_to_plot), ncols=1, figsize=(16, 16), sharex=True)
+
+# Define the split date for the trendlines
+split_date = pd.to_datetime('2017-01-01')
+
+for i, (dist, ax) in enumerate(zip(distances_to_plot, axes)):
+    
+    df_dist = master_df[master_df['DISTANCE'] == dist].dropna(subset=['DATE', 'TIME_MINS'])
+    
+    trend_df = df_dist.groupby('DATE')['TIME_MINS'].agg(
+        Top_5_Percent=lambda x: x.quantile(0.05),  
+        Top_10_Percent=lambda x: x.quantile(0.10), 
+        Top_25_Percent=lambda x: x.quantile(0.25), 
+        Overall_Avg='mean'                         
+    ).reset_index()
+    
+    trend_df.sort_values('DATE', inplace=True)
+    
+    # Define metrics and their assigned colors
+    metrics = [
+        ('Top_5_Percent', '#d62728', 'Top 5% (Fastest)'),
+        ('Top_10_Percent', '#ff7f0e', 'Top 10%'),
+        ('Top_25_Percent', '#2ca02c', 'Top 25%'),
+        ('Overall_Avg', '#7f7f7f', 'Overall Average')
+    ]
+    
+    # --- 3. Plot Raw Data & Trendlines ---
+    for col, color, label in metrics:
+        # Plot the raw data faint and transparent
+        ax.plot(trend_df['DATE'], trend_df[col], color=color, linewidth=1, marker='o', markersize=3, alpha=0.3, label=label)
+        
+        # Calculate Trendline 1: Pre-2017
+        pre_mask = trend_df['DATE'] < split_date
+        if pre_mask.sum() > 1:
+            x_pre = mdates.date2num(trend_df.loc[pre_mask, 'DATE']) # Convert dates to numbers for regression
+            y_pre = trend_df.loc[pre_mask, col]
+            
+            # Polyfit (Degree 1 = Linear)
+            z_pre = np.polyfit(x_pre, y_pre, 1)
+            p_pre = np.poly1d(z_pre)
+            ax.plot(trend_df.loc[pre_mask, 'DATE'], p_pre(x_pre), color=color, linestyle='-', linewidth=3.5)
+            
+        # Calculate Trendline 2: Post-2017
+        post_mask = trend_df['DATE'] >= split_date
+        if post_mask.sum() > 1:
+            x_post = mdates.date2num(trend_df.loc[post_mask, 'DATE'])
+            y_post = trend_df.loc[post_mask, col]
+            
+            z_post = np.polyfit(x_post, y_post, 1)
+            p_post = np.poly1d(z_post)
+            ax.plot(trend_df.loc[post_mask, 'DATE'], p_post(x_post), color=color, linestyle='-', linewidth=3.5)
+
+    # --- 4. Annotate the Eras ---
+    super_shoe_date = pd.to_datetime('2017-02-01')
+    ax.axvline(x=super_shoe_date, color='black', linestyle=':', linewidth=2, label='Super Shoes Intro (Feb 2017)' if i==0 else "")    
+    # --- 5. Formatting ---
+    ax.set_title(f'{dist}K Finish Times Over Time', fontsize=16, fontweight='bold')
+    ax.set_ylabel('Time (Minutes)', fontsize=12)
+    ax.grid(axis='both', alpha=0.3, linestyle='--')
+    
+    if i == 0:
+        # Custom legend to avoid duplicating the label for the raw data vs trendline
+        handles, labels = ax.get_legend_handles_labels()
+        # Keep only the first 6 unique labels (4 metrics + 2 era lines)
+        by_label = dict(zip(labels, handles))
+        ax.legend(by_label.values(), by_label.keys(), loc='upper left', bbox_to_anchor=(1.01, 1), fontsize=11, title='Metrics & Eras')
+    
+    print(f"Length {dist}K - Total Events: {len(trend_df):,}")
+    pd.set_option('display.max_rows', None)
+    display(trend_df)
+    pd.reset_option('display.max_rows')
+
+# Format the shared X-axis cleanly
+axes[-1].set_xlabel('Race Date', fontsize=16)
+axes[-1].xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+axes[-1].xaxis.set_major_locator(mdates.YearLocator(2)) 
+
+plt.tight_layout()
+plt.subplots_adjust(right=0.85) 
+plt.show()
+
+
 # %%
